@@ -1,3 +1,11 @@
+*{
+  
+    font-family: 'Audiowide', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;;
+}
 #game .zone {
     height: 300px;
     width: 300px;
@@ -23,15 +31,15 @@ h1 {
 }
 #resulttext h1 {
     margin-top: 17px;
-    font-size: 18px;
+    font-size: 16px;
 }
 #restart a {
     font-size: 17px;
    
 }
 footer{
-    font-size: 17px;
+    font-size: 16px;
 }
 footer a{
-    font-size: 20px;
+    font-size: 16px;
 }
