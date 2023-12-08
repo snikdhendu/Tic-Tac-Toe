@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+canvas {
+    /* display: block; */
+    background: #062726;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    display: none;
+}
+
+#game {
+    background:  #000;
+    /* color:#4a314d; */
+    min-height: 100vh;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* overflow-y: hidden; */
+    /* border: 2px solid red; */
+    gap: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 53px;
+    font-weight: 600;
+    color: #ace894;
+    margin-top: -8px;
+}
+
+#game .zone {
+    height: 420px;
+    width: 420px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+
+}
+
+.box {
+    height: calc((420px - 2px * 2) / 3);
+    width: calc((420px - 2px * 2) / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #e2cfea;
+    font-size: 69px;
+    font-weight: 500;
+    color: #102b3f;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.box h1 {
+ 
+    background-color: transparent;
+}
+
+.resultbox {
+    /* border: 2px solid red; */
+    background: rgba(255, 255, 255, 0.3);
+    /* filter: blur(1px); */
+    height: 80px;
+    width: 50%;
+    display: flex;
+    border-radius: 14px;
+
+}
+.hide{
+    display: none;
+}
+#resulttext{
+    width: 80%;
+    height: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    /* border: 2px solid yellow; */
+}
+#resulttext h1{
+    margin-top: 0px;
+    font-size: 41px;
+}
+#restart{
+    width: 20%;
+    height: 100%;
+    background-color: #ace894;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+}
+#restart a{
+    font-size: 34px;
+    text-decoration: none;
+    color: #102b3f;
+}
+footer{
+    font-size: 22px;
+    color: antiquewhite;
+}
+footer a{
+    text-decoration: none;
+    font-size: 22px;
+    color: antiquewhite;
+    font-weight:600;
+}
